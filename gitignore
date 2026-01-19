@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+models/phishing_model.pkl
+data/raw/
+
