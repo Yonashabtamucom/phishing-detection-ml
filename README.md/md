@@ -2,7 +2,6 @@
 
 This project is a **Machine Learning-based phishing detection system** that predicts whether a URL is phishing or legitimate using a structured dataset of URL features. The model is trained using a Random Forest Classifier and can be extended to other algorithms.
 
-
  # Project Structure
 
 PHISHING-DETECTION-ML/
@@ -19,7 +18,6 @@ PHISHING-DETECTION-ML/
 │ ├── train_model.py # Model training script
 │ ├── evaluate.py # Model evaluation utilities
 ├── README.md # Project documentation
----
 
  # Features
 
@@ -33,8 +31,6 @@ PHISHING-DETECTION-ML/
   - F1-score
   - Confusion matrix  
 - Saves the trained model to `models/phishing_model.pkl` for future predictions
-
----
   # How to Run
 1. Train the model
 Make sure your dataset CSV is in data/raw/ (e.g., PhishingData.csv).
@@ -66,9 +62,6 @@ Target column: Result
 ## ⚖️ License / Disclaimer
 This project is for educational purposes only.
 Do not use this model for illegal activities or commercial phishing detection without further testing.
-
-
----
 
 ## If you want, I can also **write a version that’s GitHub-ready with badges, project description, and instructions for newcomers** — it would make your repo look professional for internships.  
 
